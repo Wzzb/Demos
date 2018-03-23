@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadeScrollbars="false"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/simple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/simple"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/map"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/zip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zip"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/disposable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/disposable"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/take"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/take"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/timer"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/interval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/interval"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/interval2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/interval2"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/singleobserver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/SingleObserver"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/completableobserver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/CompletableObserver"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/flowable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Flowable"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/reduce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reduce"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/buffer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buffer"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/filter"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/skip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/skip"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/scan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/scan"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/replay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/replay"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/concat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/concat"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/merge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/merge"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/defer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/defer"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/distinct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/distinct"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/last"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/last"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/replay_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/replay_subject"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/publish_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/publish_subject"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/behavior_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/behavior_subject"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/async_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/async_subject"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/throttle_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/throttle_first"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/throttle_last"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/throttle_last"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/debounce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/debounce"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/window"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/window"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/delay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/delay"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+</ScrollView>
